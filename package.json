@@ -1,0 +1,28 @@
+{
+  "name": "donationweb-2.0",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "set NODE_ENV=test && mocha test/functional/api/adminTest.js --exit --timeout 10000"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.2",
+    "json-server": "^0.15.1",
+    "mocha": "^6.2.2",
+    "mongodb": "^3.3.3",
+    "mongodb-memory-server": "^6.0.1",
+    "mongoose": "^5.7.7",
+    "morgan": "~1.9.0",
+    "serve-favicon": "^2.5.0",
+    "supertest": "^4.0.2"
+  }
+}
